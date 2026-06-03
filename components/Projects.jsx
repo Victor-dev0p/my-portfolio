@@ -32,6 +32,11 @@ export default function Projects() {
                 className="h-48 w-full object-cover"
               />
               <div className="p-6 flex-1 flex flex-col">
+                {i < 2 && (
+                  <span className="inline-block mb-3 text-xs font-semibold bg-green-600 text-white px-3 py-1 rounded-full">
+                    Featured Project
+                  </span>
+                )}
                 <h3 className="text-xl text-white font-semibold mb-2">
                   {p.title}
                 </h3>

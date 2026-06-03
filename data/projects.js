@@ -3,7 +3,7 @@ export const projects = [
     title: "PVC Management Portal",
     description:
       "Led the development of a production-grade organizational portal designed to streamline operations, user management, and internal workflows. Built with scalability, security, and usability in mind for real-world organizational use.",
-    imageSrc: "/projects/pvc.jpg",
+    imageSrc: "/projects/pvc.png",
     tags: [
       "Next.js",
       "Firebase",
@@ -19,7 +19,7 @@ export const projects = [
     title: "Nudge",
     description:
       "A behavioral accountability platform that helps users overcome procrastination by breaking goals into realistic daily actions. Features progress tracking, accountability partnerships, reminders, and consistency-focused workflows.",
-    imageSrc: "/projects/nudge.jpg",
+    imageSrc: "/projects/nudge.png",
     tags: [
       "Next.js",
       "Firebase",
@@ -35,7 +35,7 @@ export const projects = [
     title: "Attendify",
     description:
       "An event registration and attendance management platform that simplifies participant onboarding, event organization, and attendance tracking through an intuitive user experience.",
-    imageSrc: "/projects/attendify.jpg",
+    imageSrc: "/projects/attendify.png",
     tags: [
       "Next.js",
       "Firebase",
@@ -51,7 +51,7 @@ export const projects = [
     title: "Sosa Pastries & Catering",
     description:
       "A conversion-focused business website designed to showcase catering services, improve customer engagement, and increase inquiries through a modern and responsive user experience.",
-    imageSrc: "/projects/sosa.jpg",
+    imageSrc: "/projects/sosa.png",
     tags: [
       "Next.js",
       "Business Website",
@@ -67,7 +67,7 @@ export const projects = [
     title: "DW Home Crafts",
     description:
       "A professional showcase platform created to present products, strengthen brand visibility, and help potential customers discover and engage with the business online.",
-    imageSrc: "/projects/dwhome.jpg",
+    imageSrc: "/projects/dwhome.png",
     tags: [
       "Next.js",
       "UI/UX",
@@ -83,7 +83,7 @@ export const projects = [
     title: "StoryNest",
     description:
       "A storytelling platform where users can write, publish, discover, and bookmark stories. Built with a clean reading experience and user-focused content management features.",
-    imageSrc: "/projects/storynest.jpg",
+    imageSrc: "/projects/pstory.png",
     tags: [
       "React",
       "Next.js",
