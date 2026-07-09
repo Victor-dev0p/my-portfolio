@@ -1,6 +1,7 @@
 // components/Projects.jsx
 import { motion } from "framer-motion";
 import { projects } from "@/data/projects";
+import Image from 'next/image'
 
 export default function Projects() {
   return (
@@ -26,7 +27,7 @@ export default function Projects() {
               viewport={{ once: true }}
               transition={{ delay: i * 0.2, duration: 0.8 }}
             >
-              <img
+              <Image
                 src={p.imageSrc}
                 alt={p.title}
                 className="h-48 w-full object-cover"

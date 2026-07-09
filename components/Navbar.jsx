@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+
 import { motion, AnimatePresence } from "framer-motion";
 
 const navItems = ["About", "Skills", "Projects", "Testimonials", "Contact"];
@@ -12,7 +13,7 @@ export default function Navbar() {
   return (
     <nav className="fixed w-full bg-[#0E2148] text-white z-50">
       <div className="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
-        <a href="/" className="font-bold text-xl">Victor_D3v</a>
+        <Link href="/" className="font-bold text-xl">Victor_D3v</Link>
 
         {/* Desktop Links */}
         <div className="hidden md:flex space-x-8">
