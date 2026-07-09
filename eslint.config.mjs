@@ -1,11 +1,14 @@
-import { FlatCompat } from '@eslint/eslintrc'
+import next from '@next/eslint-plugin-next'
 
-const compat = new FlatCompat({
-  baseDirectory: import.meta.dirname,
-})
-
-const eslintConfig = [
-  ...compat.extends('next/core-web-vitals'),
+export default [
+  {
+    files: ['**/*.{js,jsx,ts,tsx}'],
+    plugins: {
+      '@next/next': next,
+    },
+    rules: {
+      ...next.configs.recommended.rules,
+      ...next.configs['core-web-vitals'].rules,
+    },
+  },
 ]
-
-export default eslintConfig
