@@ -1,3 +1,5 @@
+![CI](https://github.com/Victor-dev0p/my-portfolio/actions/workflows/ci.yml/badge.svg)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
